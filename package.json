@@ -9,16 +9,18 @@
 	 "scripts"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "turbo run build",
+    "test": "turbo run test"
   },
   "keywords": [
-  "monorepo",
-  "workspace"
+    "monorepo",
+    "workspace"
   ],
   "author": "Koridore",
   "license": "MIT",
   "devDevendencies": {
-  
+    "turbo": "^1.7.4",
+	 "typescript": "^4.9.5"
   },
   "dependencies": {
   
