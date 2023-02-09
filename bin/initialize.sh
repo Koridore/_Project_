@@ -10,3 +10,7 @@ git add . && git commit -m "initial commit"
 
 # To create a repository for your project on GitHub, use the gh repo create subcommand.
 gh repo create lentix/monorepo-workspaces
+
+gh repo create --source=. --public --push
+
+gh repo create --source=monorepo-workspaces --public --push

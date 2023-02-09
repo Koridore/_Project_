@@ -1,0 +1,8 @@
+packages:
+  - "workspaces/*"
+  - "packages/*"
+  - "scripts/*"
+  - "docs/*"
+  - "apps/*"
+  - "web/*"
+  - "bin/*"
