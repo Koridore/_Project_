@@ -2,37 +2,25 @@
     "$schema": "https://turbo.build/schema.json",
     "pipeline": {
       "build": {
-        // "A workspace's `build` command depends on its dependencies'
-        // or devDependencies' `build` command being completed first"
         "dependsOn": ["^build"],
 		  "outputMode": "full"
       },
       "test": {
-        // "A workspace's `test` command depends on its own `lint` and
-        // `build` commands first being completed"
-        "dependsOn": ["lint", "build"]
+        "dependsOn": ["lint", "build"],
 		  "outputs": [""],
-      // A workspace's `test` task should only be rerun when
-      // either a `.tsx` or `.ts` file has changed.
         "inputs": ["src/**/*.tsx", "src/**/*.ts", "test/**/*.ts"]
       },
 		"test:ci": {
-      // "Cache the coverage report of a `test:ci` command"
-      "outputs": ["coverage/**"],
-      "dependsOn": ["build"]
+        "outputs": ["coverage/**"],
+        "dependsOn": ["build"]
       },
 		"dev": {
-      // Never cache anything (including logs) emitted by a
-      // `dev` task
-      "cache": false,
-      "persistent": true
+        "cache": false,
+        "persistent": true
       },
       "deploy": {
-        // "A workspace's `deploy` command, depends on its own `build`
-        // and `test` commands first being completed"
         "dependsOn": ["build", "test"]
       },
-      // A workspace's `lint` command has no dependencies
       "lint": {}
     }
   }
