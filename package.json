@@ -1,0 +1,19 @@
+{
+  "name": "_Project_",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+  "monorepo",
+  "workspace"
+  ],
+  "author": "Lentix",
+  "license": "MIT"
+  "Devpendencies": [
+  ],
+  "dependencies": [
+  ],
+}
