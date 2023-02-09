@@ -1,8 +1,13 @@
 {
-  "name": "_Project_",
+  "name": "@koridore/monorepo-workspaces",
   "version": "0.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "./",
+  "workspace": {
+    "workspaces",
+	 "packages",
+	 "scripts"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +15,16 @@
   "monorepo",
   "workspace"
   ],
-  "author": "Lentix",
-  "license": "MIT"
-  "Devpendencies": [
-  ],
-  "dependencies": [
-  ],
+  "author": "Koridore",
+  "license": "MIT",
+  "devDevendencies": {
+  
+  },
+  "dependencies": {
+  
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@7.26.2"
 }
