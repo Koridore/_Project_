@@ -1,0 +1,16 @@
+{
+  "name": "@lentix/templates",
+  "version": "0.0.0",
+  "description": "Templates",
+  "main": "dist/index.js",
+  "files": [],
+  "scripts": {
+    "build": "pnpm run build",
+    "test": "pnpm run test"
+  },
+  "keywords": [
+    "templates"
+  ],
+  "author": "Lentix",
+  "license": "MIT"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@lentix/docs",
+  "version": "0.0.0",
+  "description": "Docs",
+  "main": "dist/index.js",
+  "files": [],
+  "scripts": {
+    "build": "pnpm run build",
+    "test": "pnpm run test"
+  },
+  "keywords": [
+    "docs"
+  ],
+  "author": "Lentix",
+  "license": "MIT"
+}

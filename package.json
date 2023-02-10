@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "description": "",
   "main": "./",
-  "workspace": {
+  "workspaces": [
     "workspaces",
-	 "packages",
-	 "scripts"
-  },
+	  "packages",
+	  "scripts"
+  ],
   "scripts": {
     "build": "turbo run build",
     "test": "turbo run test"

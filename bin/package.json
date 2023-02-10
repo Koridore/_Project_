@@ -1,0 +1,16 @@
+{
+  "name": "@lentix/bin",
+  "version": "0.0.0",
+  "description": "Bin",
+  "main": "dist/index.js",
+  "files": [],
+  "scripts": {
+    "build": "pnpm run build",
+    "test": "pnpm run test"
+  },
+  "keywords": [
+    "bin"
+  ],
+  "author": "Lentix",
+  "license": "MIT"
+}
