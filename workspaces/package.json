@@ -1,0 +1,16 @@
+{
+  "name": "@lentix/workspaces",
+  "version": "0.0.0",
+  "description": "Workspaces",
+  "main": "dist/index.js",
+  
+  "scripts": {
+    "build": "pnpm run build",
+    "test": "pnpm run test"
+  },
+  "keywords": [
+    "workspaces"
+  ],
+  "author": "Lentix",
+  "license": "MIT"
+}

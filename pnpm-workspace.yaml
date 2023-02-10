@@ -1,6 +1,7 @@
 packages:
   - "workspaces/*"
   - "packages/*"
+  - "packages/shared/*"
   - "scripts/*"
   - "docs/*"
   - "apps/*"

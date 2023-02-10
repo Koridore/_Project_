@@ -1,0 +1,20 @@
+{
+  "name": "@lentix/discord-workspace",
+  "version": "0.0.0",
+  "description": "Discord Workspace",
+  "main": "dist/index.js",
+  
+  "scripts": {
+    "build": "pnpm run build",
+    "test": "pnpm run test"
+  },
+  "keywords": [
+    "discord",
+    "workspace"
+  ],
+  "author": "Lentix",
+  "license": "MIT",
+  "devDevendencies": {
+	  "typescript": "^4.9.5"
+  }
+}

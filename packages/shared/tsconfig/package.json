@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "description": "",
   "main": "dist/index.js",
-  "files": {
+  "files": [
     "base.json"
-  },
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pnpm run build",
+    "test": "pnpm run test"
   },
   "keywords": [],
   "author": "",
